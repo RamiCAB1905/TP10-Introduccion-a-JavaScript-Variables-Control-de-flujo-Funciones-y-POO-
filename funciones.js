@@ -1,4 +1,4 @@
-// 6. Función para calcular el área de un círculo
+// Función para calcular el área de un círculo
 console.log("--- Función (Área Círculo) ---");
 function calcularAreaCirculo(radio) {
     // Fórmula: Área = PI * radio^2
@@ -9,7 +9,7 @@ let radio = 5;
 let area = calcularAreaCirculo(radio);
 console.log("El área de un círculo con radio " + radio + " es: " + area);
 
-// 7. Función para sumar un array
+// Función para sumar un array
 console.log("--- Función (Sumar Array) ---");
 function sumarArray(arrayDeNumeros) {
     let sumaTotal = 0;
@@ -22,3 +22,4 @@ function sumarArray(arrayDeNumeros) {
 let numeros = [10, 20, 30, 40];
 let total = sumarArray(numeros);
 console.log("La suma del array [10, 20, 30, 40] es: " + total);
+
