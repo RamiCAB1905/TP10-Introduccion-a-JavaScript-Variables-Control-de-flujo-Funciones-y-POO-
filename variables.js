@@ -1,4 +1,4 @@
-// 2. Declaración de variables (var, let, const)
+// Declaración de variables (var, let, const)
 console.log("--- Variables (var, let, const) ---");
 
 // 'var': Es la forma antigua de declarar variables. 
@@ -26,7 +26,7 @@ console.log(variableConst);
  * entre var (ámbito de función) y let/const (ámbito de bloque).
  */
 
-// 3. Tipos de Datos Primitivos
+// Tipos de Datos Primitivos
 console.log("--- Tipos de Datos ---");
 
 let miString = "Hola, esto es texto";   // String
@@ -39,4 +39,5 @@ console.log("String:", miString);
 console.log("Numero:", miNumero);
 console.log("Booleano:", miBooleano);
 console.log("Nulo:", miNull);
+
 console.log("Indefinido:", miUndefined);
