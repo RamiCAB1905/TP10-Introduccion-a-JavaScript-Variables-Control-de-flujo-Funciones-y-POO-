@@ -1,8 +1,8 @@
 // -----------------------------------------------------------------
-// Parte E — Clases y Programación Orientada a Objetos (POO)
+// Clases y Programación Orientada a Objetos (POO)
 // -----------------------------------------------------------------
 
-// 10. Definición de una Clase
+// Definición de una Clase
 console.log("--- Clases y POO ---");
 // Una clase es un "molde" o "plantilla" para crear objetos.
 class Persona {
@@ -22,13 +22,11 @@ class Persona {
 /*
  * 
 
-[Image of class vs instance in OOP]
-
  * Un diagrama que muestra cómo una 'Clase' (Molde/Blueprint) 
  * se utiliza para crear 'Instancias' (Objetos).
  */
 
-// 11. Crear una instancia y ejecutar el método
+// Crear una instancia y ejecutar el método
 // Creamos un nuevo objeto (instancia) usando el "molde" (clase) Persona
 let persona1 = new Persona("Carlos Gomez", 45);
 
@@ -36,4 +34,5 @@ let persona1 = new Persona("Carlos Gomez", 45);
 persona1.saludar();
 
 let persona2 = new Persona("Lucia Fernandez", 22);
+
 persona2.saludar();
