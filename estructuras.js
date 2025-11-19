@@ -1,8 +1,8 @@
 // -----------------------------------------------------------------
-// Parte D — Estructuras de Datos
+// — Estructuras de Datos
 // -----------------------------------------------------------------
 
-// 8. Arrays (Listas)
+// Arrays (Listas)
 console.log("--- Arrays (Recorrido) ---");
 let lenguajes = ["JavaScript", "Python", "Java", "C#", "PHP"];
 
@@ -18,15 +18,16 @@ lenguajes.forEach(function(lenguaje, indice) {
 //     console.log(i + ": " + lenguajes[i]);
 // }
 
-// 9. Objeto Literal
+// Objeto Literal
 console.log("--- Objeto Literal ---");
 // Un objeto agrupa datos relacionados (propiedades) en una sola variable.
 let usuario = {
     nombre: "Ana Rodriguez",
     edad: 28,
-    email: "ana.rodriguez@example.com"
+    email: "ana.rodriguez@gmail.com"
 };
 
 // Accedemos a las propiedades usando la notación de punto
 console.log("Nombre del usuario: " + usuario.nombre);
 console.log("Email del usuario: " + usuario.email);
+
