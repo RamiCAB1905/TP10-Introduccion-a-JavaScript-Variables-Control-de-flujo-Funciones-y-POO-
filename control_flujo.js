@@ -1,6 +1,6 @@
 // Par o Impar (if/else)
 console.log("--- Par o Impar ---");
-let numero = 11; // Puedes cambiar este número para probar
+let numero = 11; // Podes cambiar el número para probar las otras respuestas
 
 if (numero % 2 === 0) {
     console.log(numero + " es PAR");
@@ -10,7 +10,7 @@ if (numero % 2 === 0) {
 
 // Clasificación de Edad (if / else if / else)
 console.log("--- Clasificación de Edad ---");
-let edad = 15; // Puedes cambiar esta edad para probar
+let edad = 15; // Podes cambiar la edad para probar las otras respuestas, no esta ligado al anterior es aparte
 
 if (edad >= 0 && edad <= 11) {
     console.log("Resultado: Niño");
@@ -22,3 +22,4 @@ if (edad >= 0 && edad <= 11) {
     console.log("Edad no válida");
 
 }
+
